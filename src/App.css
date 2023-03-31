@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #003b4c;
@@ -15,4 +16,5 @@ body {
   --expent-avt-orange: #fcaf58;
   --expent-offwhite-color: #e7efee;
   --expent-progressbar: #17bebb;
+  --expent-background-offwhite: #f2f5f6;
 }

@@ -4,3 +4,24 @@
   width: 300px;
   gap: 0.5rem;
 }
+.expent-general-information {
+  width: 1000px;
+  background-color: var(--expent-background-offwhite);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.expent-info-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.expent-intakesection {
+  display: flex;
+  gap: 1rem;
+}
+.expent-question-components {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
