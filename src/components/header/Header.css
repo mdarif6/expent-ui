@@ -1,0 +1,28 @@
+.expent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: var(--expent-white-color);
+}
+.expent-logo-and-navicons {
+  display: flex;
+  gap: 2rem;
+}
+.expent-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--expent-white-color);
+}
+.expent-navicons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+}
+.expent-login-and-notifications {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+}
