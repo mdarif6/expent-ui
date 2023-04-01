@@ -1,12 +1,13 @@
+import RadioButton from "../checkbox/RadioButton";
 import Question from "../question/Question";
 import "./IntakeSection.css";
 export default function IntakeSection() {
   return (
     <div className="expent-intakesection">
       <div className="expent-intake-infobtns">
-        <button>General Information</button>
-        <button>Security & Privacy</button>
-        <button>Upload Documents</button>
+        <button className="expent-info-btn active">General Information</button>
+        <button className="expent-info-btn">Security & Privacy</button>
+        <button className="expent-info-btn">Upload Documents</button>
       </div>
 
       <div className="expent-info-components">
@@ -34,22 +35,36 @@ export default function IntakeSection() {
         <div className="expent-general-information">
           <p className="expent-info-heading">Product Feedback</p>
           <div className="expent-question-components">
-            <Question
-              questionNumber={"1"}
-              questionText={"Please select your sourcing option"}
-              optionText={"Choose Sourcing"}
+            <RadioButton
+              questionNumber={"4"}
+              questionText={"Will you be sharing PII with the vendor?"}
             />
             <Question
-              questionNumber={"2"}
-              questionText={"Number range of users who will use the product:"}
-              optionText={"Choose Sourcing"}
+              questionNumber={"5"}
+              questionText={"What typeof PII will the vendor have access to?:"}
+              optionText={"Choose one or more PII type"}
             />
-            <Question
-              questionNumber={"3"}
-              questionText={"Provided an expected spend:"}
-              optionText={"Choose expense range"}
+            <RadioButton
+              questionNumber={"6"}
+              questionText={"Will the vendor have access to AWS Account?:"}
             />
           </div>
+        </div>
+
+        <div className="expent-general-information">
+          <p className="expent-info-heading">Product Feedback</p>
+          <div className="expent-question-components">
+            <Question
+              questionNumber={"7"}
+              questionText={"What typeof PII will the vendor have access to?:"}
+            />
+          </div>
+        </div>
+        <div className="expent-primary-secondary-btns">
+          <button className="expent-secondary-btn">
+            Save and Continue Later
+          </button>
+          <button className="expent-primary-btn">Next</button>
         </div>
       </div>
     </div>

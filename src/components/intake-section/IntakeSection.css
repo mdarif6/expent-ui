@@ -25,3 +25,33 @@
   flex-direction: column;
   gap: 1rem;
 }
+.expent-info-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-background-offwhite);
+  border: none;
+  border-radius: 0.5rem;
+}
+.active {
+  background-color: var(--expent-white-color);
+  border: 1px solid black;
+}
+.expent-primary-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-progressbar);
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.expent-secondary-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-white-color);
+  border: 2px solid var(--expent-background-offwhite);
+
+  border-radius: 0.5rem;
+}
+.expent-primary-secondary-btns {
+  text-align: right;
+}
