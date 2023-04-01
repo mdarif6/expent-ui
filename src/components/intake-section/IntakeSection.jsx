@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RadioButton from "../checkbox/RadioButton";
 import Question from "../question/Question";
 import "./IntakeSection.css";
@@ -64,7 +65,9 @@ export default function IntakeSection() {
           <button className="expent-secondary-btn">
             Save and Continue Later
           </button>
-          <button className="expent-primary-btn">Next</button>
+          <Link to="/workflowpage">
+            <button className="expent-primary-btn">Next</button>
+          </Link>
         </div>
       </div>
     </div>

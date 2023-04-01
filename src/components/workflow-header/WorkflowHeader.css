@@ -33,3 +33,15 @@
   color: var(--expent-btn-text);
   border: none;
 }
+.header-backarrow-and-heading {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.back-btn {
+  color: var(--expent-white-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}

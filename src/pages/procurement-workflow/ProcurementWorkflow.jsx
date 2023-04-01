@@ -2,7 +2,6 @@ import ReactFlow, {
   Controls,
   applyEdgeChanges,
   applyNodeChanges,
-  ReactFlowProvider,
   useReactFlow,
 } from "reactflow";
 import "reactflow/dist/style.css";
@@ -139,7 +138,7 @@ export default function ProcurementWorkflow() {
         label: `Node ${id}`,
       },
     };
-    console.log(newNode);
+
     reactFlowInstance.addNodes(newNode);
   }, []);
 
@@ -160,6 +159,11 @@ export default function ProcurementWorkflow() {
             left: "50%",
             top: "10px",
             zIndex: "10",
+            padding: "0.5rem 1rem",
+            borderRadius: ".5rem",
+            cursor: "pointer",
+            backgroundColor: "transparent",
+            color: "#ffffff",
           }}
           onClick={onClick}
         >
