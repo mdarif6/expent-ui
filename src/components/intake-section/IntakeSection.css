@@ -1,11 +1,18 @@
+.expent-intakesection {
+  display: flex;
+  gap: 1rem;
+}
 .expent-intake-infobtns {
   display: flex;
   flex-direction: column;
   width: 300px;
   gap: 0.5rem;
 }
+.expent-info-components {
+  flex: 1;
+}
 .expent-general-information {
-  width: 1000px;
+  /* width: 1000px; */
   background-color: var(--expent-background-offwhite);
   padding: 1rem;
   margin-bottom: 1rem;
@@ -16,10 +23,7 @@
   font-weight: bold;
   padding-bottom: 1rem;
 }
-.expent-intakesection {
-  display: flex;
-  gap: 1rem;
-}
+
 .expent-question-components {
   display: flex;
   flex-direction: column;

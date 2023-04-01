@@ -26,9 +26,16 @@ export default function Main() {
         <ProgressBar
           title={"Pre-Evaluation Feedback"}
           date={"12 October, 2022"}
+          width={"100%"}
         />
-        <ProgressBar title={"Intake form"} date={"16 October, 2022"} />
+        <ProgressBar
+          title={"Intake form"}
+          date={"16 October, 2022"}
+          width={"50%"}
+        />
       </div>
+
+      <hr style={{ margin: "1rem 0" }} />
       <IntakeSection />
     </div>
   );

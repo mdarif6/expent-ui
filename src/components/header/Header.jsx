@@ -1,5 +1,6 @@
 import "./Header.css";
-import { FaSave, FaRegBell, FaRegUser } from "react-icons/fa";
+import { FaSave, FaRegBell, FaRegUser, FaAngleDown } from "react-icons/fa";
+
 export default function Header() {
   return (
     <div className="expent-header">
@@ -23,7 +24,9 @@ export default function Header() {
         <div>
           <FaRegUser />
         </div>
-        <div>name</div>
+        <div>
+          Smith Jones <FaAngleDown />
+        </div>
       </div>
     </div>
   );

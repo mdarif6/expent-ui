@@ -1,6 +1,7 @@
 .expent-main-section {
   background-color: var(--expent-white-color);
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 .expent-main-upperheading {
   display: flex;
@@ -10,6 +11,7 @@
 .expent-main-middleheading {
   font-weight: bold;
   font-size: 1.5rem;
+  margin: 8px 0;
 }
 .expent-main-avt {
   display: flex;
